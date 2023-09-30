@@ -9,7 +9,16 @@ terraform {
       version = "5.19.0"
     }
   }
+
+    cloud {
+    organization = "R24Amine"
+
+    workspaces {
+      name = "terra-house-1"
+    }
+  }
 }
+
 
 provider "aws" {
 }
