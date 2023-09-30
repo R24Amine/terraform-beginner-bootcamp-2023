@@ -285,3 +285,6 @@ Provide the following code (replace your token in the file):
 ## Git Stash
 I forgot to create another issue and a terraform cloud backend branch, we were working from main 
 so after creating the new branch we did `git add .` then `git stash save` then we checkout to new branch and we apply `git stash apply`  
+
+## Script bash to automate tfrc credantials with token
+We have automated this workaround with the following bash script [bin/generate_tfrc_credentials](bin/generate_tfrc_credentials)
