@@ -288,3 +288,13 @@ so after creating the new branch we did `git add .` then `git stash save` then w
 
 ## Script bash to automate tfrc credantials with token
 We have automated this workaround with the following bash script [bin/generate_tfrc_credentials](bin/generate_tfrc_credentials)
+
+## tf alias script
+
+open ~/.bash_profile
+
+we add alias tf="terraform" in the file
+
+we reload it using source ~/.bash_profile
+
+We need to wwrite a bash script set_tf_alias to add this alias to .bash_profile and we add it to gitpod
