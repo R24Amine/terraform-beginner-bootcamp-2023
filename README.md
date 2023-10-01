@@ -289,6 +289,7 @@ so after creating the new branch we did `git add .` then `git stash save` then w
 ## Script bash to automate tfrc credantials with token
 We have automated this workaround with the following bash script [bin/generate_tfrc_credentials](bin/generate_tfrc_credentials)
 
+## tf alias script
 
 open ~/.bash_profile
 
