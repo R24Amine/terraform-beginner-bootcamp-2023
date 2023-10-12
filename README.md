@@ -298,3 +298,12 @@ we add alias tf="terraform" in the file
 we reload it using source ~/.bash_profile
 
 We need to wwrite a bash script set_tf_alias to add this alias to .bash_profile and we add it to gitpod
+
+### Terraform cloud setup & security best practices
+Terraform is Infrastructure as code to create ressources in servers, virtual machines, public clouds and the written code is HCL : Hashicorp Language
+
+## Business use case 1 : Setup Terraform Cloud
+
+## Business use case 2 : Aplly security best practice
+
+
